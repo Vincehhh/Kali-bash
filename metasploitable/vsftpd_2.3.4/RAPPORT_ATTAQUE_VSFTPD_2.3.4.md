@@ -1,8 +1,8 @@
 # RAPPORT ATTAQUE SUR METASPLOITABLE AVEC LA VERSION vsftpd 2.3.4 DU PORT 21 
----
-machine attaquante : Kali Linux (ip : 192.168.1.97).
 
-machine cible : Metasploitable 2, machine virtuelle Linux volontairement vulnérable conçue pour l'entraînement au pentesting.
+Machine attaquante : Kali Linux (ip : 192.168.1.97).
+
+Machine cible : Metasploitable 2, machine virtuelle Linux volontairement vulnérable conçue pour l'entraînement au pentesting.
 
 <img width="900" height="498" alt="image" src="https://github.com/user-attachments/assets/d48648e4-4ec1-4c44-9d4b-cda2590f97ba" />
 
