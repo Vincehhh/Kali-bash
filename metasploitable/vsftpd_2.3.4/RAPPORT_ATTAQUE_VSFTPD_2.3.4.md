@@ -3,7 +3,9 @@
 machine attaquante : Kali Linux (ip : 192.168.1.97).
 machine cible : Metasploitable 2, machine virtuelle Linux volontairement vulnérable conçue pour l'entraînement au pentesting.
 
-![[Pasted image 20251217200904.png]]Comme le montre la capture ci-dessus avec la commande ifconfig , la cible est active et connectée au réseau local avec l'adresse IP : 192.168.1.189.
+<img width="900" height="498" alt="image" src="https://github.com/user-attachments/assets/d48648e4-4ec1-4c44-9d4b-cda2590f97ba" />
+
+ Comme le montre la capture ci-dessus avec la commande ifconfig , la cible est active et connectée au réseau local avec l'adresse IP : 192.168.1.189.
 
 Ensuite, on ping l’adresse de notre machine cible depuis notre terminal Kali pour voir si celle-ci nous réponds :
 
