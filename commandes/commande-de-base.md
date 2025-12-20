@@ -6,13 +6,13 @@
 
 **Print Working Directory**. Cette commande te permet de savoir exactement où l'on se trouve dans l'arborescence du système.
 
-```
+```shell
 pwd
 ```
 
 **Exemple d'exécution :**
 
-```
+```shell
 $ pwd
 /home/tryhackme/Documents
 ```
@@ -28,13 +28,13 @@ $ pwd
 
 Bash
 
-```
+```shell
 ls [options]
 ```
 
 **Exemple d'exécution :**
 
-```
+```shell
 $ ls -la
 drwxr-xr-x 2 user user 4096 Jan 01 12:00 .
 -rw-r--r-- 1 user user  220 Jan 01 11:00 .bashrc
@@ -48,13 +48,13 @@ drwxr-xr-x 2 user user 4096 Jan 01 12:00 .
 **Change Directory**. Permet de naviguer d'un dossier à un autre.
 
 
-```
+```shell
 cd <chemin_du_dossier>
 ```
 
 **Exemple d'exécution :**
 
-```
+```shell
 $cd /var/www/html$ pwd
 /var/www/html
 ```
@@ -69,13 +69,13 @@ $cd /var/www/html$ pwd
 
 **Concatenate**. Affiche le contenu complet d'un fichier dans le terminal.
 
-```
+```shell
 cat <nom_du_fichier>
 ```
 
 **Exemple d'exécution :**
 
-```
+```shell
 $ cat flag.txt
 THM{L1nux_1s_Aw3som3}
 ```
@@ -86,13 +86,13 @@ THM{L1nux_1s_Aw3som3}
 
 Crée un fichier vide s'il n'existe pas, ou met à jour la date de modification s'il existe déjà.
 
-```
+```shell
 touch <nom_du_fichier>
 ```
 
 **Exemple d'exécution :**
 
-```
+```shell
 $touch scan_resultats.txt$ ls
 scan_resultats.txt
 ```
@@ -103,13 +103,13 @@ scan_resultats.txt
 
 **Make Directory**. Crée un nouveau dossier.
 
-```
+```shell
 mkdir <nom_du_dossier>
 ```
 
 **Exemple d'exécution :**
 
-```
+```shell
 $ mkdir backups
 ```
 
@@ -121,13 +121,13 @@ $ mkdir backups
 
 Option obligatoire pour copier un dossier : `-r` (récursif).
 
-```
+```shell
 cp <source> <destination>
 ```
 
 **Exemple d'exécution :**
 
-```
+```shell
 $ cp rapport.txt /home/user/Documents/
 ```
 
@@ -137,19 +137,19 @@ $ cp rapport.txt /home/user/Documents/
 
 **Move**. Sert à deux choses : déplacer un fichier OU le renommer.
 
-```
+```shell
 mv <source> <destination>
 ```
 
 **Exemple d'exécution (Renommer) :**
 
-```
+```shell
 $ mv ancien_nom.txt nouveau_nom.txt
 ```
 
 **Exemple d'exécution (Déplacer) :**
 
-```
+```shell
 $ mv fichier.txt /tmp/
 ```
 
@@ -161,13 +161,13 @@ $ mv fichier.txt /tmp/
 
 Cherche une chaîne de caractères spécifique à l'intérieur d'un fichier. C'est l'outil indispensable pour trouver des informations dans des logs.
 
-```
+```shell
 grep "<texte_a_chercher>" <fichier>
 ```
 
 **Exemple d'exécution :**
 
-```
+```shell
 $ grep "password" access.log
 Login attempt: user=admin password=secret123
 ```
@@ -178,13 +178,13 @@ Login attempt: user=admin password=secret123
 
 Cherche des fichiers dans le système selon des critères (nom, taille, permissions).
 
-```
+```shell
 find <dossier_de_depart> -name "<nom_du_fichier>"
 ```
 
 **Exemple d'exécution :**
 
-```
+```shell
 $ find / -name "flag.txt" 2>/dev/null
 /root/secret/flag.txt
 /var/www/html/assets/flag.txt
@@ -200,13 +200,13 @@ $ find / -name "flag.txt" 2>/dev/null
 
 **Change Mode**. Modifie les permissions de lecture (r), écriture (w) et exécution (x) d'un fichier.
 
-```
+```shell
 chmod <permissions> <fichier>
 ```
 
 **Exemple d'exécution :**
 
-```
+```shell
 $ ls -l script.sh
 -rw-r--r-- 1 user user 0 Jan 01 12:00 script.sh
 
@@ -222,13 +222,13 @@ $ ls -l script.sh
 
 **SuperUser DO**. Exécute la commande qui suit avec les droits d'administrateur (root). Nécessaire pour installer des logiciels ou modifier des fichiers système.
 
-```
+```shell
 sudo <commande>
 ```
 
 **Exemple d'exécution :**
 
-```
+```shell
 $ sudo apt update
 [sudo] password for user: 
 Hit:1 http://eu-west-1.ec2.archive.ubuntu.com/ubuntu focal InRelease
@@ -245,7 +245,7 @@ Ils permettent de manipuler les flux de données entre les commandes.
 
 Prend la sortie d'une commande et l'écrit dans un fichier (écrase le contenu existant).
 
-```
+```shell
 echo "Ceci est un test" > test.txt
 ```
 
@@ -253,7 +253,7 @@ echo "Ceci est un test" > test.txt
 
 Prend la sortie d'une commande et l'ajoute à la fin d'un fichier (sans effacer le contenu précédent).
 
-```
+```shell
 echo "Ligne suivante" >> test.txt
 ```
 
@@ -261,6 +261,6 @@ echo "Ligne suivante" >> test.txt
 
 Prend le résultat de la commande de gauche et l'envoie comme entrée à la commande de droite.
 
-```
+```shell
 cat access.log | grep "admin"
 ```
