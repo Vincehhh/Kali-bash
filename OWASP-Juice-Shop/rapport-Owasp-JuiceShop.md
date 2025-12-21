@@ -1,6 +1,6 @@
 # RAPPORT ATTAQUE JUICE-SHOP KALI
 
-## Installion de docker sur la VM Kali 
+## Installation de docker sur la VM Kali 
 
 <img width="1920" height="923" alt="image" src="https://github.com/user-attachments/assets/b23e7ed9-963b-491a-b5d7-ab1ed479963a" />
 
