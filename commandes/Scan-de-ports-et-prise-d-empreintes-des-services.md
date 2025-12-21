@@ -170,3 +170,14 @@ Accès : Via interface Web (généralement https://localhost:8834)
 ```
 
 **Résultat attendu :** Tableau de bord affichant les vulnérabilités classées par sévérité (Critique, Élevée, Moyenne, Faible).
+
+
+## 9.Scanner de façon inapercu
+
+### Commande : `pOf`
+
+Permet de récupérer l'OS d'une machine cible en interceptant les paquets réseaux qui circulent. Scan de façon passive par rapport à nmap pour ainsi être plus discret (mais scan donc plus long).
+
+```shell
+pof -i ethO -p -o pOf.log
+```
