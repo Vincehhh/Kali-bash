@@ -61,7 +61,7 @@ Writing rapport_final.html...
 
 ### Outil : `zenmap`
 
-L'interface officielle de Nmap. Elle permet de visualiser la topologie du réseau graphiquement, de sauvegarder des profils de scan et de comparer des résultats plus facilement qu'en ligne de commande.
+L'interface officielle de Nmap. Elle permet de visualiser la topologie du réseau graphiquement (contrairement à nmap) , de sauvegarder des profils de scan et de comparer des résultats plus facilement qu'en ligne de commande.
 
 ```shell
 zenmap
