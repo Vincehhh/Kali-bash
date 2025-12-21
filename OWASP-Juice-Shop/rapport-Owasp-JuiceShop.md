@@ -40,4 +40,22 @@
 
 `bkimminich/juice-shop` : nom de l'image officielle à télécharger et exécuter
 
-## Lancement de juice shop
+## Lancement de Juice Shop
+
+<img width="1920" height="923" alt="image" src="https://github.com/user-attachments/assets/4ac812d2-fe33-4a60-b2fa-310d39f5b667" />
+
+
+## Lancemenent Burp Suite
+
+*Burp Suite est une application Java, développée par PortSwigger Ltd, qui peut être utilisée pour la sécurisation ou effectuer des tests de pénétration sur les applications web*
+
+On lance Burp et on configure le proxy pour utiliser le navigateur intégré à Burp Suite.
+
+<img width="1100" height="690" alt="image" src="https://github.com/user-attachments/assets/e4e48f45-8973-423a-a736-a1d79aa65156" />
+
+
+<img width="1100" height="690" alt="image" src="https://github.com/user-attachments/assets/15254487-feab-416f-8f10-1f80f63095a6" />
+
+
+
+
